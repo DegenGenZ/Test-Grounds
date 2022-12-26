@@ -19,7 +19,7 @@ ratings = soup.find_all(class_="_3LWZlK")
 for title, price, review, rating in zip(titles, prices, reviews, ratings):
     print(f'The phone : {title.text} costs: {price.text} and has: {review.text} with an overall rating of {rating.text} out of 5.')
 
-# url = "https://apssb.nic.in/Index/notice"
+# url = "Add URL"
 # req = requests.get(url)
 # soup = BeautifulSoup(req.text, 'lxml')
 # mtlist = []

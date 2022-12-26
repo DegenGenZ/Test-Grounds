@@ -3,7 +3,7 @@ import requests
 import urllib.request
 import wget
 
-page_to_scrape = (requests.get('https://www.flipkart.com/search?q=oppo&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off'))
+page_to_scrape = (requests.get('Add URL'))
 soup = BeautifulSoup(page_to_scrape.text, 'lxml')
 # price_window = soup.find("div", class_="_3pLy-c row")
 titles = soup.find_all(class_="_4rR01T")
